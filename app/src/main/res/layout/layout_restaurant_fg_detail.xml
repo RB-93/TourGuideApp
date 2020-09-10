@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar" />
+
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height180dp"
+            android:contentDescription="@string/no_desc_available"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin16dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/restaurantImage">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin16dp"
+                android:layout_marginEnd="@dimen/margin16dp"
+                android:paddingBottom="@dimen/padding16dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Momo Cafe" />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin4dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    android:textColor="@color/colorPrimary"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title"
+                    tools:text="4.4" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin8dp"
+                    android:layout_marginTop="@dimen/margin8dp"
+                    app:layout_constraintStart_toEndOf="@id/rating"
+                    app:layout_constraintTop_toBottomOf="@id/title"
+                    tools:rating="4.4"
+                    tools:stepSize="0.1" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/padding16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rating"
+                    tools:text="10:00 - 20:30" />
+
+                <TextView
+                    android:id="@+id/hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:drawableStart="@drawable/ic_time"
+                    android:drawablePadding="@dimen/padding16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/phone"
+                    tools:text="10:00 - 20:30" />
+
+                <TextView
+                    android:id="@+id/directions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:background="?selectableItemBackground"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="@dimen/margin16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/hours"
+                    tools:text="View on map" />
+
+                <TextView
+                    android:id="@+id/website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin16dp"
+                    android:background="?selectableItemBackground"
+                    android:drawableStart="@drawable/ic_web"
+                    android:drawablePadding="@dimen/margin16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/directions"
+                    tools:text="Visit website" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/div_height1dp"
+            android:layout_marginTop="@dimen/margin8dp"
+            android:layout_marginBottom="@dimen/margin8dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginEnd="@dimen/margin16dp"
+            android:text="@string/about"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/black"
+            tools:text="About" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin16dp"
+            android:layout_weight="1"
+            android:text="@string/dummy_text"
+            tools:text="XYZ" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/div_height1dp"
+            android:layout_marginTop="@dimen/margin8dp"
+            android:layout_marginBottom="@dimen/margin8dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

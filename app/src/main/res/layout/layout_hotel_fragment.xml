@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding8dp">
+
+            <ImageView
+                android:id="@+id/hotel_image"
+                android:layout_width="@dimen/img_width0dp"
+                android:layout_height="@dimen/image_height180dp"
+                android:contentDescription="@string/no_desc_available"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/hotel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:layout_marginEnd="@dimen/margin8dp"
+                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toStartOf="@+id/hotel_type"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@id/hotel_image"
+                app:layout_constraintTop_toBottomOf="@id/hotel_image"
+                tools:text="Hotel Gud Stay" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hotel_name"
+                tools:text="4.4" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                app:layout_constraintStart_toEndOf="@id/rating"
+                app:layout_constraintTop_toBottomOf="@id/hotel_name"
+                tools:rating="4.4"
+                tools:stepSize="0.1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin4dp"
+                android:layout_marginTop="@dimen/margin7dp"
+                android:layout_marginEnd="@dimen/margin4dp"
+                android:text="@string/dot_separator"
+                android:textColor="@color/light_grey"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@id/ratingBar"
+                app:layout_constraintTop_toBottomOf="@id/hotel_name"
+                tools:text="·" />
+
+            <TextView
+                android:id="@+id/hotel_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin16dp"
+                android:layout_marginTop="@dimen/margin5dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/light_grey"
+                app:layout_constraintStart_toEndOf="@id/ratingBar"
+                app:layout_constraintTop_toBottomOf="@id/hotel_name"
+                tools:text="3-star hotel" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

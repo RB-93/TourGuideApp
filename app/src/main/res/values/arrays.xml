@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hotelImgID">
+        <item>@drawable/jehan_numa</item>
+        <item>@drawable/marriott</item>
+        <item>@drawable/sayaji</item>
+        <item>@drawable/stay_inn</item>
+        <item>@drawable/celestial_park</item>
+        <item>@drawable/kanha_palm</item>
+        <item>@drawable/rajhans</item>
+        <item>@drawable/shubh_inn</item>
+    </string-array>
+
+    <string-array name="hotelName">
+        <item>@string/jehan_numa_hotel</item>
+        <item>@string/marriott</item>
+        <item>@string/sayaji</item>
+        <item>@string/stay_inn</item>
+        <item>@string/celestial_park</item>
+        <item>@string/kanha_palm</item>
+        <item>@string/rajhans</item>
+        <item>@string/shubhinn</item>
+    </string-array>
+
+    <string-array name="hotelRating">
+        <item>4.5</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.3</item>
+        <item>4.2</item>
+        <item>4.2</item>
+        <item>4.0</item>
+        <item>4.0</item>
+    </string-array>
+
+    <string-array name="hotelType">
+        <item>@string/five_star</item>
+        <item>@string/four_star</item>
+        <item>@string/five_star</item>
+        <item>@string/three_star</item>
+        <item>@string/four_star</item>
+        <item>@string/three_star</item>
+        <item>@string/three_star</item>
+        <item>@string/four_star</item>
+    </string-array>
+
+    <string-array name="hotelPhone">
+        <item>@string/jehan_numa_phone</item>
+        <item>@string/marriot_phone</item>
+        <item>@string/sayaji_phone</item>
+        <item>@string/stayinn_phone</item>
+        <item>@string/celestial_park_phone</item>
+        <item>@string/kanha_palm_phone</item>
+        <item>@string/rajhans_phone</item>
+        <item>@string/shubhinn_phone</item>
+    </string-array>
+
+    <string-array name="hotelAddress">
+        <item>@string/jehan_numa_hotel_address</item>
+        <item>@string/marriott_address</item>
+        <item>@string/sayaji_address</item>
+        <item>@string/stay_inn_address</item>
+        <item>@string/celestial_park_address</item>
+        <item>@string/kanha_palm_address</item>
+        <item>@string/rajhans_address</item>
+        <item>@string/shubhinn_address</item>
+    </string-array>
+
+    <string-array name="placeImageId">
+        <item>@drawable/van_vihar</item>
+        <item>@drawable/bhojtal</item>
+        <item>@drawable/taj_mahal</item>
+        <item>@drawable/museum</item>
+        <item>@drawable/sair_sapata</item>
+        <item>@drawable/kanha_city</item>
+        <item>@drawable/birla_mandir</item>
+        <item>@drawable/bhadbhada</item>
+    </string-array>
+
+    <string-array name="placeName">
+        <item>@string/van_vihar</item>
+        <item>@string/bhojtal</item>
+        <item>@string/taj_mahal_palace</item>
+        <item>@string/tribal_museum</item>
+        <item>@string/sair_sapata</item>
+        <item>@string/kanha_fun_city</item>
+        <item>@string/birla_mandir</item>
+        <item>@string/bhadbhada_dam</item>
+    </string-array>
+
+    <string-array name="placeRating">
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>4.3</item>
+        <item>4.6</item>
+        <item>4.1</item>
+        <item>4.0</item>
+        <item>4.5</item>
+        <item>4.0</item>
+    </string-array>
+
+    <string-array name="placeType">
+        <item>@string/van_vihar_type</item>
+        <item>@string/bhojtal_type</item>
+        <item>@string/taj_mahal_type</item>
+        <item>@string/tribal_museum_type</item>
+        <item>@string/sair_sapata_type</item>
+        <item>@string/kanha_fun_type</item>
+        <item>@string/birla_mandir_type</item>
+        <item>@string/bhadbhada_dam_type</item>
+    </string-array>
+
+    <string-array name="placePhone">
+        <item>@string/van_vihar_phone</item>
+        <item>@string/bhojtal_phone</item>
+        <item>@string/taj_mahal_palace_phone</item>
+        <item>@string/tribal_museum_phone</item>
+        <item>@string/sair_sapata_phone</item>
+        <item>@string/kanha_fun_city_phone</item>
+        <item>@string/birla_mandir_phone</item>
+        <item>@string/bhadbhada_dam_phone</item>
+    </string-array>
+
+    <string-array name="placeTime">
+        <item>@string/van_vihar_time</item>
+        <item>@string/bhojtal_time</item>
+        <item>@string/taj_mahal_palace_time</item>
+        <item>@string/tribal_museum_time</item>
+        <item>@string/sair_sapata_time</item>
+        <item>@string/kanha_fun_city_time</item>
+        <item>@string/birla_mandir_time</item>
+        <item>@string/bhadbhada_dam_time</item>
+    </string-array>
+
+    <string-array name="placeAddress">
+        <item>@string/van_vihar_address</item>
+        <item>@string/bhojtal_address</item>
+        <item>@string/taj_mahal_palace_address</item>
+        <item>@string/tribal_museum_address</item>
+        <item>@string/sair_sapata_address</item>
+        <item>@string/kanha_fun_city_address</item>
+        <item>@string/birla_mandir_address</item>
+        <item>@string/bhadbhada_dam_address</item>
+    </string-array>
+
+    <string-array name="shopImgId">
+        <item>@drawable/aura_mall</item>
+        <item>@drawable/gammon_mall</item>
+        <item>@drawable/capital_mall</item>
+        <item>@drawable/db_mall</item>
+        <item>@drawable/people_mall</item>
+        <item>@drawable/aashima_mall</item>
+    </string-array>
+
+    <string-array name="shopName">
+        <item>@string/aura_mall</item>
+        <item>@string/gammmon_mall</item>
+        <item>@string/capital_mall</item>
+        <item>@string/db_mall</item>
+        <item>@string/people_mall</item>
+        <item>@string/aashima_mall</item>
+    </string-array>
+
+    <string-array name="shopRating">
+        <item>3.8</item>
+        <item>3.9</item>
+        <item>3.8</item>
+        <item>4.6</item>
+        <item>4.1</item>
+        <item>4.1</item>
+    </string-array>
+
+    <string-array name="shopPlace">
+        <item>@string/aura_mall_addr</item>
+        <item>@string/gammmon_mall_addr</item>
+        <item>@string/capital_mall_addr</item>
+        <item>@string/db_mall_addr</item>
+        <item>@string/people_mall_addr</item>
+        <item>@string/aashima_mall_addr</item>
+    </string-array>
+
+    <string-array name="shopPhone">
+        <item>@string/aura_mall_phone</item>
+        <item>@string/gammmon_mall_phone</item>
+        <item>@string/capital_mall_phone</item>
+        <item>@string/db_mall_phone</item>
+        <item>@string/people_mall_phone</item>
+        <item>@string/aashima_mall_phone</item>
+    </string-array>
+
+    <string-array name="shopTime">
+        <item>@string/aura_mall_time</item>
+        <item>@string/gammmon_mall_time</item>
+        <item>@string/capital_mall_time</item>
+        <item>@string/db_mall_time</item>
+        <item>@string/people_mall_time</item>
+        <item>@string/aashima_mall_time</item>
+    </string-array>
+
+    <string-array name="shopAddress">
+        <item>@string/aura_mall_address</item>
+        <item>@string/gammmon_mall_address</item>
+        <item>@string/capital_mall_address</item>
+        <item>@string/db_mall_address</item>
+        <item>@string/people_mall_address</item>
+        <item>@string/aashima_mall_address</item>
+    </string-array>
+
+    <string-array name="restoImgId">
+        <item>@drawable/la_kuchina</item>
+        <item>@drawable/momo_cafe</item>
+        <item>@drawable/mango_tree</item>
+        <item>@drawable/crystal_dew</item>
+        <item>@drawable/winds_waves</item>
+        <item>@drawable/dakshin</item>
+    </string-array>
+
+    <string-array name="restoName">
+        <item>@string/kuchina</item>
+        <item>@string/momo_cafe</item>
+        <item>@string/mango_tree</item>
+        <item>@string/crystal_dew</item>
+        <item>@string/wind_wave</item>
+        <item>@string/dakshin_resto</item>
+    </string-array>
+
+    <string-array name="restoRating">
+        <item>4.4</item>
+        <item>4.5</item>
+        <item>4.3</item>
+        <item>4.4</item>
+        <item>4.1</item>
+        <item>4.0</item>
+    </string-array>
+
+    <string-array name="restoType">
+        <item>@string/italian</item>
+        <item>@string/cafe</item>
+        <item>@string/indian</item>
+        <item>@string/chinese</item>
+        <item>@string/indian</item>
+        <item>@string/indian</item>
+    </string-array>
+
+    <string-array name="restoPhone">
+        <item>@string/kuchina_phone</item>
+        <item>@string/momo_cafe_phone</item>
+        <item>@string/mango_tree_phone</item>
+        <item>@string/crystal_dew_phone</item>
+        <item>@string/wind_wave_phone</item>
+        <item>@string/dakshin_resto_phone</item>
+    </string-array>
+
+    <string-array name="restoTime">
+        <item>@string/kuchina_time</item>
+        <item>@string/momo_cafe_time</item>
+        <item>@string/mango_tree_time</item>
+        <item>@string/crystal_dew_time</item>
+        <item>@string/wind_wave_time</item>
+        <item>@string/dakshin_resto_time</item>
+    </string-array>
+
+    <string-array name="restoAddress">
+        <item>@string/kuchina_address</item>
+        <item>@string/momo_cafe_address</item>
+        <item>@string/mango_tree_address</item>
+        <item>@string/crystal_dew_address</item>
+        <item>@string/wind_wave_address</item>
+        <item>@string/dakshin_resto_address</item>
+    </string-array>
+
+    <string-array name="restoUrl">
+        <item>@string/kuchina_url</item>
+        <item>@string/momo_cafe_url</item>
+        <item>@string/mango_tree_url</item>
+        <item>@string/crystal_dew_url</item>
+        <item>@string/wind_wave_url</item>
+        <item>@string/dakshin_resto_url</item>
+    </string-array>
+
+    <string-array name="eventImgId">
+        <item>@drawable/christmas_carnival</item>
+        <item>@drawable/chess_tour</item>
+        <item>@drawable/workshop</item>
+        <item>@drawable/fashion_show</item>
+        <item>@drawable/selfie_contest</item>
+        <item>@drawable/bhopal_club</item>
+    </string-array>
+
+    <string-array name="eventName">
+        <item>@string/christmas_carnival</item>
+        <item>@string/chess_tour</item>
+        <item>@string/workshop</item>
+        <item>@string/fashion_show</item>
+        <item>@string/selfie_contest</item>
+        <item>@string/bhopal_club_meet</item>
+    </string-array>
+
+    <string-array name="eventDate">
+        <item>@string/christmas_carnival_date</item>
+        <item>@string/chess_tour_date</item>
+        <item>@string/workshop_date</item>
+        <item>@string/fashion_show_date</item>
+        <item>@string/selfie_contest_date</item>
+        <item>@string/bhopal_club_meet_date</item>
+    </string-array>
+
+    <string-array name="eventTime">
+        <item>@string/christmas_carnival_time</item>
+        <item>@string/chess_tour_time</item>
+        <item>@string/workshop_time</item>
+        <item>@string/fashion_show_time</item>
+        <item>@string/selfie_contest_time</item>
+        <item>@string/bhopal_club_meet_time</item>
+    </string-array>
+
+    <string-array name="eventPlace">
+        <item>@string/christmas_carnival_place</item>
+        <item>@string/chess_tour_place</item>
+        <item>@string/workshop_place</item>
+        <item>@string/fashion_show_place</item>
+        <item>@string/selfie_contest_place</item>
+        <item>@string/bhopal_club_meet_place</item>
+    </string-array>
+
+    <string-array name="eventUrl">
+        <item>@string/christmas_carnival_url</item>
+        <item>@string/chess_tour_url</item>
+        <item>@string/workshop_url</item>
+        <item>@string/fashion_show_url</item>
+        <item>@string/selfie_contest_url</item>
+        <item>@string/bhopal_club_meet_url</item>
+    </string-array>
+</resources>

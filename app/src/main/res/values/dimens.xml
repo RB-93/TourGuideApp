@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_height">4dp</dimen>
+    <dimen name="loader_height150dp">150dp</dimen>
+    <dimen name="margin48dp">48dp</dimen>
+    <dimen name="image_height180dp">180dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin16dp">16dp</dimen>
+    <dimen name="padding8dp">8dp</dimen>
+    <dimen name="margin4dp">4dp</dimen>
+    <dimen name="dimen_image200dp">200dp</dimen>
+    <dimen name="padding16dp">16dp</dimen>
+    <dimen name="events_text_width60dp">60dp</dimen>
+    <dimen name="event_text_height0dp">0dp</dimen>
+    <dimen name="events_img_width110dp">110dp</dimen>
+    <dimen name="events_img_height110dp">110dp</dimen>
+    <dimen name="div_height1dp">1dp</dimen>
+    <dimen name="img_width0dp">0dp</dimen>
+    <dimen name="margin7dp">7dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+</resources>
