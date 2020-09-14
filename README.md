@@ -1,6 +1,6 @@
 # TourGuideApp
 
-## Project name: Bhopal Darshan<a href="https://github.com/RB-93/TourGuideApp/blob/master/README.md#legends">^</a>
+## Project name: Bhopal Darshan[^](https://github.com/RB-93/TourGuideApp/blob/master/README.md#legends)
 
 ## Description:
 
