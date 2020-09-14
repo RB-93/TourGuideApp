@@ -12,7 +12,7 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 
 ## Usage:
 
-<img src="https://github.com/RB-93/TourGuideApp/blob/master/App-demo/Tour_1[1].jpg?raw=true" width="250" height="450" title="Launch"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/App-demo/Tour_2[1].jpg?raw=true" width="250" height="450" title="News List"> <br/><br/> <img src="https://github.com/RB-93/TourGuideApp/blob/master/App-demo/Tour_3[1].jpg?raw=true" width="250" height="450" title="Settings (preference) Screen"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/App-demo/Tour_4[1].jpg?raw=true" width="250" height="450" title="Preference Dialog (sort)"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/App-demo/Tour_5[1].jpg?raw=true" width="250" height="450" title="Preference Dialog (search)">
+<img src="https://github.com/RB-93/TourGuideApp/blob/master/app-demo/Tour_1[1].jpg?raw=true" width="250" height="450" title="Launch"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/app-demo/Tour_2[1].jpg?raw=true" width="250" height="450" title="News List"> <br/><br/> <img src="https://github.com/RB-93/TourGuideApp/blob/master/app-demo/Tour_3[1].jpg?raw=true" width="250" height="450" title="Settings (preference) Screen"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/app-demo/Tour_4[1].jpg?raw=true" width="250" height="450" title="Preference Dialog (sort)"> &nbsp; &nbsp; <img src="https://github.com/RB-93/TourGuideApp/blob/master/app-demo/Tour_5[1].jpg?raw=true" width="250" height="450" title="Preference Dialog (search)">
 
 ## Legends:
 
