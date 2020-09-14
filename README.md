@@ -16,7 +16,7 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 
 ## Legends:
 
-* ^The word is derived from the Sanskrit word darsana meaning “sight,” “vision,” or “appearance”.
+* ^The word is derived from the Sanskrit word darsana meaning “sight”, “vision”, or “appearance”.
   - Here it refers to the english word "vision" that means the act of going to see some person or place or thing for a short time.
 
 ## Credits:
